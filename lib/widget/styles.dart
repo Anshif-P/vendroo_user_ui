@@ -78,6 +78,12 @@ class AppText {
         overflow: TextOverflow.ellipsis,
         color: AppColor.black,
       );
+
+  static TextStyle get txSmallBlue => TextStyle(
+        fontSize: 6.sp,
+        overflow: TextOverflow.ellipsis,
+        color: AppColor.customBlue,
+      );
   static TextStyle get txSmallBoldDark => TextStyle(
         fontSize: 7.sp,
         overflow: TextOverflow.ellipsis,
@@ -100,9 +106,9 @@ class AppText {
       );
 
   static TextStyle get tH1Dark => TextStyle(
-        fontSize: 15.sp,
+        fontSize: 13.sp,
         overflow: TextOverflow.ellipsis,
-        color: AppColor.grey,
+        color: AppColor.black,
       );
   static TextStyle get mediumBoldLight => TextStyle(
         fontSize: 10.sp,

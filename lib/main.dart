@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:vednroo_ui/view/login_page.dart';
 import 'package:vednroo_ui/view/parent_page.dart';
 import 'package:vednroo_ui/view/screen_home.dart';
+import 'package:vednroo_ui/view/sign_up_page.dart';
+import 'package:vednroo_ui/view/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,7 +39,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: ScreenParentNavigation(),
+        home: SignUpPage(),
       ),
     );
   }
